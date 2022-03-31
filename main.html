@@ -1,0 +1,53 @@
+<html>
+	<head>
+		<title>COVID stats</title>
+		<link rel="stylesheet" href="./styles.css">
+	</head>
+
+	<body>
+		<div class="heading">
+			<h1>COVID Cases AROUND the WORLD</h1>
+		</div>
+		<div class="chart">
+			<ol>
+				<li>
+					<p>New Covid-Cases Today</p>
+					<canvas id="new-case"></canvas>
+				</li>
+
+				<li>
+					<p>New Covid-Deaths Today</p>
+					<canvas id="new-death"></canvas>
+				</li>
+
+				<li>
+					<p>Total Covid-Cases Today</p>
+					<canvas id="total-case"></canvas>
+				</li>
+
+				<li>
+					<p>Total Covid-Deaths Today</p>
+					<canvas id="total-death"></canvas>
+				</li>
+				<li>
+					<p>India Covid-Cases Today</p>
+					<div class="india-covid">
+						<ol id="india-stats">
+							<li id="new-cases">New Cases:</li>
+							<li id="new-deaths">New Deaths:</li>
+							<li id="total-cases">Total Cases:</li>
+							<li id="total-deaths">Total Deaths:</li>
+						</ol>
+					</div>
+				</li>
+			</ol>
+			
+		</div>
+
+		
+		<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+		<script src="./script.js"></script>
+	</body>
+
+	
+</html>

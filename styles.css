@@ -1,0 +1,54 @@
+*{
+	align: left;
+	flex: content;
+	padding: 0.01rem;
+	background-color: #162868ff;
+}
+
+.heading{
+	align-items: center;
+	padding: 0.0005rem;
+}
+
+h1{
+	background-color: #e00081ff;
+	padding: 1rem;
+	color: aliceblue;
+	flex:auto;
+	text-align: center;
+	font-family: Century;
+	
+}
+
+.chart{
+	padding: 100px;
+	align-items: center;
+}
+
+li{
+	padding: 2rem;
+	
+
+}
+.li-chart{
+		
+}
+
+canvas{
+	flex: content;
+	background-color: #afccfeff;
+	border:0.8rem solid black;
+	overflow-y: auto;
+	max-height: 25rem;
+}
+
+ol{
+	color: white;
+	font-size: 26px;
+}
+
+#india-stats li{
+	padding: 0 0;
+	font-size: 20px;
+	color: rgb(186, 255, 225);
+}
